@@ -17,5 +17,3 @@ function sayGoodbye(){
     console.log("Goodbye, see you later!!!")
 }
 sayGoodbye()
-
-// Research on arrow functions with parameters and annonymous functions in javascript

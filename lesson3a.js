@@ -21,11 +21,12 @@ for(let i=0; i <= 10; i++){
 }
 
 // Create a for loop that is able to printout all the leap years from 2000 to 2026
-// for(let year = 2000; year <= 2026; year++){
-//     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
-//         console.log(year, "is a leap year.")
-//     } else{
-//         console.log(year, "is not a leap year.")
-//     }   
-// }
-// page  30 and 28 of the book
+ for(let year = 2000; year <= 2026; year++){
+     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+         console.log(year, "is a leap year.")
+     }
+ }
+
+
+ 
+//  page  30 and 28 of the book
