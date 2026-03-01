@@ -48,3 +48,19 @@ console.log(square(5));
 // multiple parameters; regular function;
 function multiply(a, b){ return a * b; }
 console.log(multiply(3, 4));
+
+ console.log("====================")
+ console.log("====================")
+// Annonymous functions
+// assign to a variable
+const greet =  function(name){
+    return `Hello, ${name}!`;
+};
+console.log(greet("Cedric"));
+
+ console.log("====================")
+
+// pass it as a callback
+setTimeout(function(){
+    console.log("2 seconds later...");
+}, 2000);
