@@ -64,3 +64,41 @@ console.log(greet("Cedric"));
 setTimeout(function(){
     console.log("2 seconds later...");
 }, 2000);
+
+ console.log("====================")
+ console.log("====================")
+
+// Gross Income
+
+// Variable to store the Gross Income (Ksh)
+let grossIncome = 6000; 
+let monthlyContribution;
+
+// NHIF Premium Rate Logic
+if (grossIncome < 6000) {
+    monthlyContribution = 150;
+} else if (grossIncome <= 7999) {
+    monthlyContribution = 300;
+} else if (grossIncome <= 11999) {
+    monthlyContribution = 400;
+} else if (grossIncome <= 14999) {
+    monthlyContribution = 500;
+} else if (grossIncome <= 19999) {
+    monthlyContribution = 600;
+} else if (grossIncome <= 24999) {
+    monthlyContribution = 750;
+} else if (grossIncome <= 29999) {
+    monthlyContribution = 850;
+} else if (grossIncome <= 49999) {
+    monthlyContribution = 1000;
+} else if (grossIncome <= 99999) {
+    monthlyContribution = 1500;
+} else {
+    monthlyContribution = 2000; // For income Over 100,000
+}
+
+console.log("For a Gross Income of Ksh", grossIncome, "the Monthly Contribution is Ksh", monthlyContribution);
+
+
+// Read on arrow function with and without parameters.
+// research on modules in Javascript.
