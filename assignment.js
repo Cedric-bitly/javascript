@@ -99,6 +99,23 @@ if (grossIncome < 6000) {
 
 console.log("For a Gross Income of Ksh", grossIncome, "the Monthly Contribution is Ksh", monthlyContribution);
 
-
+console.log("====================")
+ console.log("====================")
 // Read on arrow function with and without parameters.
 // research on modules in Javascript.
+
+// Arrow functions with parameter;
+const multiplyNums = (a, b) => a * b;
+console.log(multiplyNums(3, 7));
+
+console.log("====================")
+
+// Arrow functions with Block Body
+const divide = (a, b) => {
+    const result = a / b;
+    return result;
+};
+console.log(divide(10, 5));
+
+console.log("====================")
+console.log("====================")
