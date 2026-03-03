@@ -123,15 +123,17 @@ console.log("====================")
 
 // FizBuzz
 const fizzBuzz = (n) => {
-   for (if (i % 3 === 0 && i % 5 === 0){
-        console.log("fizzBuzz");
-    }else if( i % 3 === 0){
-        console.log("Fizz");
-    }else if (i % 5 === 0){
-        console.log("Buzz");
-    }else{
-        console.log(i)
+    for (let i = 1; i <= n; i++) { // ✅ add for loop
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(i);
+        }
     }
 }
 
-fizzBuzz(100)
+fizzBuzz(100);

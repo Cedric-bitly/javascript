@@ -14,5 +14,5 @@
  export const bmi = (weight, height) =>{
     let answer = weight / (height **2 )
 
-    console.log("TheBMI of the person is:", answer)
+    console.log("The BMI of the person is:", answer)
  }
